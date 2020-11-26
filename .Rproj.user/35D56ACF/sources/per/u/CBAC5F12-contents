@@ -1,0 +1,7 @@
+library(piggyback)
+Sys.setenv(GITHUB_TOKEN="788307df0aba8059fbe6a16be38073e50083a70a")
+#pb_new_release("PitKubi/MHCIatlas/supplData", "v0.0.1")
+pb_new_release("PitKubi/MHCIatlas_data", "v0.0.2")
+pb_upload("/home/peterkubiniok/Rpackages/MHCIatlas_0.1.0/MHCIatlas/inst/extdata/HumanHLAatlas_reprocessed.csv", 
+          repo = "PitKubi/MHCIatlas_data", 
+          tag = "v0.0.1")

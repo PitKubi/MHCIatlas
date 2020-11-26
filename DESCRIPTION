@@ -1,0 +1,23 @@
+Package: MHCIatlas
+Type: Package
+Title: Package to reproduce data analysis and further explore the data depicted by Kubiniok et al. 2020 in 
+        'Global Analysis of the Mammalian MHC class I Immunopeptidome at the Organism-Wide Scale'.
+Version: 0.1.0
+Author: Peter Kubiniok
+Maintainer: Peter Kubiniok <peterkubiniok@gmail.com>    
+Description: This R package is supplementary to the publication 'Global Analysis of the Mammalian MHC class I Immunopeptidome at the Organism-Wide Scale'
+        in which publicly available datasets of human and mouse MHCI peptide tissue drafts are co-analyzed with organism-wide human and mouse
+        proteomics (protein expression atlases) and mRNA (mRNA expression atlases) datasets. This package allows the reproduction of the analysis
+        depicted by Kubiniok et al. (2020) and also allows further exploration of the approaches taken.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: FactoMineR, factoextra, stringr, ggplot2, cowplot, tidyr,
+        stats, broom, ggrepel, ggpmisc, dplyr, magrittr, data.table,
+        Matrix, pheatmap,reshape2, ggplotify, RColorBrewer, forcats,
+        rtracklayer,TxDb.Mmusculus.UCSC.mm10.knownGene,TxDb.Hsapiens.UCSC.hg38.knownGene
+        , AnnotationDbi, org.Mm.eg.db, GenomicFeatures, zoo, limma,
+        webr, org.Hs.eg.db
+NeedsCompilation: no
+Packaged: 2020-11-23 16:40:44 UTC; pk
